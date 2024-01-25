@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+    #header,.left,.nav,.logo,.right{
+        width: 50%;
+        font-size: 10px;
+    }
+    .card image{
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+    }
+
+ }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <style>
+       .parent{
+        border: 4px solid black;
+       }
+       .child{
+        border: 4px dashed rgb(red, green, blue);
+       }
+       .parent p{
+        background-color: rgb(230, 218, 242);
+        color: rgb(248, 7, 7);
+       }
+    </style>
+</head>
+<body>
+    <h1>Descendant Selector ( )</h1>
+    <div class="parent">
+        This is Parent Element
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.</p>
+        <div class="child">
+            In This We have Grand Children
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, similique.</p>
+    </div>
+</body>
+</html>

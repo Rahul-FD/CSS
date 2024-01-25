@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgroundimh{
+    position: fixed;
+}
+.Uber{
+    width: 100%;
+    position: relative;
+}
+.border{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+.nav,.left,.right{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+#threeline{
+    margin-top: 10px;
+    size: 20px;
+}
+h2{
+    font-size: xx-large;
+}
+.right{
+    margin-left: 70%;
+}
+.login{
+    display: flex;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contenar{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+}
+h1{
+    font-size: 70px;
+}
+.row,.box1,.box2{
+    display: flex;
+    gap: 10px;
+}
+.row,.or{
+    margin-top: 15px;
+}
+.box1{
+    border: 1px solid rgb(251, 251, 251);
+    background-color: white;
+    color: rgb(12, 12, 12);
+    width: 450px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.box2{
+    border: 1px solid rgb(251, 251, 251);
+    background-color: white;
+    color: rgb(12, 12, 12);
+    width: 170px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.box3{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.or{
+    display: flex;
+    gap: 5px;
+}
+.row-colum{
+    display: flex;
+    gap: 30px;
+}
+.feed{
+    width: 100%;
+}
+.map{
+    width: 95%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.row-colum,.box-1{
+    margin-top: 50px;
+}
+.box-2{
+    display: flex;
+    margin-left: 40px;
+}
+.box-3{
+    display: flex;
+    margin-top: 15px;
+}
+.box-4{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.box-5{
+    display: flex;
+    margin-top: 15px;
+}
+h3{
+    font-size: xx-large;
+}
+h6{
+    font-size: large;
+}
+a{
+    color: black;
+}
+.rightview{
+    margin-left: 60%;
+}
+.list1,.list2,.list3,.list4{
+    width: 100%;
+    margin-left: 70px;
+}
+.list-1,.list-2,.list-3,.list-4{
+    width: 100%;
+    margin-left: 70px;
+}
+li{
+    list-style-type: none;
+    padding: 10PX;
+}
+.line{
+    border: 1px solid rgb(128, 126, 126);
+    width: 100%;
+    margin-top: 50px;
+}
+.box-6{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.rowpic{
+    display: flex;
+    gap: 10px;
+}
+.play{
+    width: 75%;
+}
+.box-7{
+    margin: 10% 10% 10% 10%;
+}
+.box-8,.rowa{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    margin-left: 5px;
+}
+.rowa{
+    margin-left: 50%;
+}
+.box-9{
+    display: flex;
+    margin-left: 20%;
+}

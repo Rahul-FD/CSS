@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media quarry</title>
+    <style>
+        body{
+            background-color: tan;
+        }
+        .contaner{
+            background-color: rgb(238, 210, 210);
+        }
+        .row{
+            box-sizing: border-box;
+            border: 1px solid black;
+            display: flex;
+            width: 100%;
+        }
+        .col-50{
+            border: 1px solid black;
+        }
+        div{
+            width: 70%;
+            padding: 50px;
+            gap: 20px;
+        }
+        .col-33{
+            border: 1px solid black;
+
+        }
+        .col-25{
+            border: 1px solid black;
+
+        }
+        .col-50{
+            background-color: blueviolet;
+        }
+        /* Media Query*/
+       
+      @media (max-width: 576px) {
+       body{
+        background-color: red;
+       }
+       .contaner{
+        background-color: bisque;
+       }
+       .row{
+           flex-direction: column;
+       }
+       .col-50{
+        
+       }
+      }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <div class="row">
+            <div class="col-50">
+                <div>box-1</div>
+            </div>
+            <div class="col-50">
+                <div>box-2</div>
+            </div>
+        </div>
+    </div>
+    <div class="contaner">
+        <div class="row">
+            <div class="col-33">
+                <div>box-1</div>
+            </div>
+            <div class="col-33">
+                <div>box-2</div>
+            </div>
+            <div class="col-33">
+                <div>box-3</div>
+            </div>
+        </div>
+    </div>
+    <div class="contaner">
+        <div class="row">
+            <div class="col-25">
+                <div>box-1</div>
+            </div>
+            <div class="col-25">
+                <div>box-1</div>
+            </div>
+                <div class="col-25">
+                <div>box-1</div>
+                </div>
+            <div class="col-25">
+                <div>box-1</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

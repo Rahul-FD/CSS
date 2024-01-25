@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing In CSS</title>
+    <style>
+        .div[class*='box']{
+            margin: 0%;
+            width: 100px;
+            height: 75px;
+            background-color: beige;
+            color: blue;
+        }
+        .border-box{
+            box-sizing: border-box;
+           padding: 30px;
+           border: 5px solid black;
+        }
+        .content-box{
+            box-sizing: content-box;
+           padding: 30px;
+           border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <H1>Box Sizing</H1>
+    <div class="border-box">Lorem, ipsum.</div>
+    <hr>
+    <div class="content-box">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>
